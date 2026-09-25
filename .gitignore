@@ -1,32 +1,27 @@
-# Prerequisites
-*.d
+__pycache__/
+*.py[cod]
+*.pyo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+.venv/
+venv/
+env/
+.env
 
-# Precompiled Headers
-*.gch
-*.pch
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+benchmark_results/
+outputs/
+cvrp_ts_alns_result.png
 
-# Fortran module files
-*.mod
-*.smod
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.log
+*.tmp
+*.bak
 *.exe
 *.out
-*.app
